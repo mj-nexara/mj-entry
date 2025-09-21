@@ -1,0 +1,4 @@
+daily: donation-entry, expense-log, attendance
+weekly: summary-generation, audit-check
+monthly: donor-report, salary-disbursement, compliance-review
+annual: impact-report, govt-submission, international-audit

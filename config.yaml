@@ -1,0 +1,15 @@
+mj_class_entry:
+  script: scripts/mj-entry.ps1
+  gui: gui/mj-launcher.ps1
+  launcher: mj-entry-launcher.bat
+  archive:
+    daily: archive/daily/yyyy-MM-dd/entries.txt
+    weekly: archive/weekly/week-N/entries.txt
+    monthly: archive/monthly/yyyy-MM/entries.txt
+    yearly: archive/yearly/yyyy/entries.txt
+  prompts:
+    - category: [Income, Expense, Donation, Purchase, Other]
+    - description: string
+    - amount: number
+    - guardian: optional string
+  output_format: "timestamp | category | description | amount | guardian"

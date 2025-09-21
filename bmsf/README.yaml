@@ -1,0 +1,16 @@
+title: "B.M. Sabab Foundation Documentation"
+maintainer: "MJ-Ahmad"
+last-updated: "2025-09-21"
+structure:
+  - 00-config
+  - 10-donation
+  - 20-expense
+  - 30-projects
+  - 40-HR
+  - 50-compliance
+  - 60-reports
+rituals:
+  - daily-entry
+  - weekly-summary
+  - monthly-audit
+  - annual-submission
